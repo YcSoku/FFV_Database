@@ -1,0 +1,97 @@
+{
+    "area_masks": [
+        "https://ycsoku.github.io/FFV_Database/images/mask_100.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_101.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_102.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_103.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_104.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_105.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_106.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_107.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_108.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_109.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_110.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_111.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_112.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_113.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_114.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_115.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_116.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_117.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_118.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_119.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_120.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_121.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_122.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_123.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_124.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_125.png",
+        "https://ycsoku.github.io/FFV_Database/images/mask_126.png"
+    ],
+    "constraints": {
+        "max_drop_rate": 0.1,
+        "max_drop_rate_bump": 0.2,
+        "max_segment_num": 16,
+        "max_streamline_num": 262144,
+        "max_texture_size": 2048
+    },
+    "extent": [
+        0.8334519409367115,
+        0.4087464036632672,
+        0.8388303296774701,
+        0.40586521884815613
+    ],
+    "flow_boundary": {
+        "u_max": 2.3461,
+        "u_min": -2.1176,
+        "v_max": 2.0175,
+        "v_min": -1.8959
+    },
+    "flow_fields": [
+        "https://ycsoku.github.io/FFV_Database/images/uv_100.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_101.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_102.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_103.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_104.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_105.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_106.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_107.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_108.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_109.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_110.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_111.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_112.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_113.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_114.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_115.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_116.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_117.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_118.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_119.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_120.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_121.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_122.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_123.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_124.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_125.png",
+        "https://ycsoku.github.io/FFV_Database/images/uv_126.png"
+    ],
+    "projection": {
+        "2D": "https://ycsoku.github.io/FFV_Database/images/projection.png",
+        "3D": "https://ycsoku.github.io/FFV_Database/images/projection_3D.png"
+    },
+    "texture_size": {
+        "area_mask": [
+            1024,
+            558
+        ],
+        "flow_field": [
+            1024,
+            558
+        ],
+        "projection": [
+            1024,
+            2048
+        ]
+    }
+}
