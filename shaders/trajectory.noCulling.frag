@@ -97,7 +97,7 @@ float getAlpha(float param)
 
 void main() 
 {
-    if (sls.isDiscarded >= segmentNum * 10.0) discard; 
+    if (sls.isDiscarded >= fullLife) discard; 
     float alpha = getAlpha(abs(sls.edgeParam));
 
     // vec3 color = mix(colorFromInt(rampColors[int(sls.velocity * 7.0)]), colorFromInt(rampColors[int(sls.velocity * 7.0 + 0.5)]), fract(sls.velocity * 7.0));

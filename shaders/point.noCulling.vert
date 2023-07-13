@@ -20,6 +20,7 @@ uniform sampler2D projectionTexture;
 uniform int blockNum;
 uniform int beginBlock;
 uniform int blockSize;
+uniform float currentSegmentNum;
 uniform float fillWidth;
 uniform float aaWidth;
 uniform vec2 viewport;
@@ -115,7 +116,7 @@ void main()
 
     // prepare for anti-aliasing
 
-    float segmentRate = float(currentVertex) / segmentNum;
+    float segmentRate = float(currentVertex) / currentSegmentNum;
     sls.alphaDegree = 1.0 - segmentRate;
 
     sls.velocity = speedRate;
